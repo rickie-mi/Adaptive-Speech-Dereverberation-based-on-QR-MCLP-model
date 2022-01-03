@@ -1,0 +1,4 @@
+﻿  FFTWin.c
+g:\webrtcbeamform_ccs\webrtcbeamform_ccs\webrtcbeamform_ccs\fftwin.c(22): warning C4305: “初始化”: 从“double”到“float”截断
+  WebRtcBeamform_ccs.vcxproj -> G:\WebRtcBeamform_ccs\WebRtcBeamform_ccs\Debug\WebRtcBeamform_ccs.exe
+  WebRtcBeamform_ccs.vcxproj -> G:\WebRtcBeamform_ccs\WebRtcBeamform_ccs\Debug\WebRtcBeamform_ccs.pdb (Partial PDB)
