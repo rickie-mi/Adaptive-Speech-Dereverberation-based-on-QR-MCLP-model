@@ -13,6 +13,9 @@
 
 论文部分已附在工程文件中。
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+translate:
 
 According to the paper "Multi-Channel Linear Prediction Speech Dereverberation Algorithm Based on QR-RLS Adaptive Filter", this is a C program to realize the function of dual-channel speech de-reverberation.
 
