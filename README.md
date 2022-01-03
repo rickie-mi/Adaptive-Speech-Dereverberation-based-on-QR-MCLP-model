@@ -11,7 +11,7 @@
 
 需要注意的是音频的输入输出都是PCM格式的，如果是WAV格式或其他需要进行转换。
 
-论文部分已附在工程文件中。
+算法结构介绍 https://blog.csdn.net/qq_40017011/article/details/122292702
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -29,5 +29,4 @@ At present, the algorithm has been tested on simulated and recorded audio, and t
 
 It should be noted that the audio input and output are all in PCM format,  and the WAV format or other needs to be converted.
 
-The paper has been attached to this repository.
-
+Algorithm structure introduction： https://blog.csdn.net/qq_40017011/article/details/122292702
