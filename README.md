@@ -13,3 +13,18 @@
 
 论文部分已附在工程文件中。
 
+
+According to the paper "Multi-Channel Linear Prediction Speech Dereverberation Algorithm Based on QR-RLS Adaptive Filter", this is a C program to realize the function of dual-channel speech de-reverberation.
+
+The code is for 32kHz dual-channel speech de-reverberation. At the beginning, the raw speech is orthogonally decomposed into a low 16kHz component and a high 16kHz component. Then the program directly uses the QR-MCLP model to dereverberate the audio on the low frequency part (16kHz dual channel audio) speech. After the de-reverberation, the processed low-frequency part audio is directly spliced with the high-frequency part to get the output.
+
+Since the voice and reverberation components are mainly concentrated in the low frequency part, we can still have a superb performance effect without any processing on the high frequency part.
+
+The main body of the model is an MCLP Recursive Least Squares adaptive filter, which uses QR decomposition to ensure the robustness of the model. The QR decomposition and backtracking part take a long time to run.
+
+At present, the algorithm has been tested on simulated and recorded audio, and the effect is good.
+
+It should be noted that the audio input and output are all in PCM format,  and the WAV format or other needs to be converted.
+
+The paper has been attached to this repository.
+
